@@ -24,12 +24,7 @@ An end-to-end classification lab comparing Logistic Regression, K-Nearest Neighb
 
 All notebook code cells execute successfully.
 
-## Recommended repository details
 
-- **Name:** `predictive-modeling-classification-lab`
-- **Description:** Practical classification lab comparing Logistic Regression, KNN, and Random Forest using reproducible preprocessing and multiple evaluation metrics.
-- **Topics:** `predictive-modeling`, `classification`, `logistic-regression`, `knn`, `random-forest`, `scikit-learn`, `python`, `google-colab`
-- **Demo:** Use the Colab badge above.
 
 ## Author
 
