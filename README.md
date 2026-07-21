@@ -1,90 +1,36 @@
-# 📊 Predictive Modeling I - Lecture & Practical Lab
+# Predictive Modeling: Classification Lab
 
-## 📁 Files Included
-- Predictive_Modeling_Lecture_Updated.docx → Complete lecture notes  
-- Predictive_Modeling_Lab_Colab_Updated.ipynb → Hands-on practical lab  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sohailblockchain/predictive-modeling-project-ml/blob/main/Predictive_Modeling_Lab_Colab_Updated.ipynb)
 
----
+An end-to-end classification lab comparing Logistic Regression, K-Nearest Neighbors, and Random Forest with train/test splitting, scaling, evaluation, and model selection.
 
-## 🚀 How to Run This Lab (Google Colab)
+## Learning outcomes
 
-1. Open Google Colab: https://colab.research.google.com  
-2. Click on **Upload Notebook**  
-3. Upload file: `Predictive_Modeling_Lab_Colab_Updated.ipynb`  
-4. Run each cell **step by step (top → bottom)**  
+- Define features and a classification target.
+- Create a reproducible stratified train/test split.
+- Apply feature scaling without mixing training and test data.
+- Train three baseline classification models.
+- Compare accuracy, precision, recall, and F1 Score.
+- Select a model using evidence rather than accuracy alone.
 
-⚠️ Important:  
-Do NOT skip any cell — each step depends on the previous one.
+## Contents
 
----
+| File | Purpose |
+| --- | --- |
+| `Predictive_Modeling_Lecture_Updated.docx` | Complete predictive-modeling lecture. |
+| `Predictive_Modeling_Lab_Colab_Updated.ipynb` | Commented practical notebook and student exercises. |
 
-## 🎯 Learning Objectives
+## Verified execution
 
-After completing this lab, students will be able to:
+All notebook code cells execute successfully.
 
-- Understand **Predictive Modeling concepts**
-- Work with real datasets
-- Perform **Train-Test Split**
-- Apply **Feature Scaling**
-- Train multiple Machine Learning models:
-  - Logistic Regression
-  - K-Nearest Neighbors (KNN)
-  - Random Forest
-- Evaluate models using:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1 Score
-- Compare models and select the **best performing model**
+## Recommended repository details
 
----
+- **Name:** `predictive-modeling-classification-lab`
+- **Description:** Practical classification lab comparing Logistic Regression, KNN, and Random Forest using reproducible preprocessing and multiple evaluation metrics.
+- **Topics:** `predictive-modeling`, `classification`, `logistic-regression`, `knn`, `random-forest`, `scikit-learn`, `python`, `google-colab`
+- **Demo:** Use the Colab badge above.
 
-## 🧠 Real-Life Applications
+## Author
 
-This lab represents real-world use cases such as:
-
-- 📞 Telecom → Predict customer churn  
-- 🏦 Banking → Predict loan default  
-- 🛒 E-commerce → Predict customer purchase behavior  
-- 🏥 Healthcare → Predict diseases  
-
-👉 Goal: Use historical data to make smart predictions about future outcomes.
-
----
-
-## 🧪 Student Practice Tasks
-
-After completing all lab cells, students must complete the following tasks:
-
-### 🔹 Task 1: Change KNN Value
-- Modify `n_neighbors = 5` to:
-  - 3  
-  - 7  
-- Run the model again and compare results  
-
-👉 Question: Which value gives better performance?
-
----
-
-### 🔹 Task 2: Improve Random Forest
-- Change:
-  - `n_estimators = 200` → try 50, 100, 300  
-- Observe the changes in performance  
-
-👉 Question: Does increasing trees always improve accuracy?
-
----
-
-### 🔹 Task 3: Run Without Scaling
-- Run Logistic Regression **without scaling**  
-
-👉 Compare results  
-👉 Question: Why is scaling important?
-
----
-
-### 🔹 Task 4: Add New Model (Challenge)
-Try adding a new model:
-
-```python
-from sklearn.tree import DecisionTreeClassifier
+**Sohail Ahmed** — Web Development and Data Science Trainer
